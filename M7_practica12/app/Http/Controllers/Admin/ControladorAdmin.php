@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class ControladorAdmin extends Controller
 {
     public function articulos() {
-        return view('AdminMensaje')->with(['text' => 'Benvinguts a la pàgina articles']);
+        return view('AdminMensaje')->with(['text' => 'Página PRINCIPAL']);
     }
     
     public function clientes() {
